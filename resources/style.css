@@ -68,7 +68,8 @@ src: url("GeosansLight.ttf") format("truetype");
     font-family: PT Sans Narrow, sans-serif;
     height: 50px;
     width: 95%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer span {
@@ -191,13 +192,34 @@ src: url("GeosansLight.ttf") format("truetype");
 }
 
 .event2 {
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 20px;
+    position: relative;
+    height: 900px;
 }
 
-.event2 div {
+.event2 h3 {
     margin: auto;
     width: 60%;
     font-size: 18px;
     font-weight: 400;
+    text-align:center;
+}
+
+.profile {
+    width: 33%;
+    float: left;
+    position: relative;
+    text-align:center;
+}
+
+.profile h1 {
+    font-size: 30px;
+    margin: 5px;
+}
+
+.profile h2 {
+    margin: auto;
+    width: 90%;
+    font-size: 14px;
 }
