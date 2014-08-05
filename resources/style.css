@@ -87,7 +87,10 @@ src: url("GeosansLight.ttf") format("truetype");
 }
 
 #main_pic {
-    width: 100%;
+    clear:both;
+    width: 800px;
+    display: block;
+    margin: auto;
 }
 
 .index {
