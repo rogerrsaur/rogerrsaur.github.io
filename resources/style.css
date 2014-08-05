@@ -117,7 +117,11 @@ src: url("GeosansLight.ttf") format("truetype");
 .about1 {
     margin-top: 20px;
     clear: both;
-    height: 450px;
+    height: 475px;
+}
+
+.about1 img {
+    width: 90%;
 }
 
 .about1 div {
@@ -145,7 +149,7 @@ src: url("GeosansLight.ttf") format("truetype");
     margin: auto;
     margin-top: 10px;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .event1 {
@@ -170,38 +174,6 @@ src: url("GeosansLight.ttf") format("truetype");
 
 .event1 a:hover {
     color: #C37897;
-}
-
-.event1 h1 {
-    font-family: Pacifico;
-    color: white;
-    text-align: center;
-    margin-top: -22%;
-    font-size: 120px;
-    z-index: 90;
-    position: relative;
-}
-
-.event1 h2 {
-    color: white;
-    text-align: center;
-    margin-top: -8%;
-    font-size: 60px;
-    z-index: 90;
-    position: relative;
-    font-weight: 400;
-    margin-bottom: 170px;
-}
-
-.transparent {
-    background-color: #C37897;
-    opacity: .7;
-    width: 100%;
-    height: 300px;
-    position: relative;
-    z-index: 50;
-    margin-top: -35%;
-    margin-bottom: 0px;
 }
 
 .register {
