@@ -45,7 +45,7 @@ src: url("GeosansLight.ttf") format("truetype");
     display: inline-block;
     font-family: GeoSansLight, PT Sans Narrow, sans-serif;
     font-size: 30px;
-    width: 200px;
+    width: 175px;
     text-align:center;
     font-weight: 400;
     margin-top: 5px;
@@ -70,6 +70,7 @@ src: url("GeosansLight.ttf") format("truetype");
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    clear:both;
 }
 
 .footer span {
@@ -195,7 +196,6 @@ src: url("GeosansLight.ttf") format("truetype");
     margin-top: 30px;
     margin-bottom: 20px;
     position: relative;
-    height: 900px;
 }
 
 .event2 h3 {
@@ -222,4 +222,69 @@ src: url("GeosansLight.ttf") format("truetype");
     margin: auto;
     width: 90%;
     font-size: 14px;
+}
+
+.support1 {
+    
+}
+
+.support1 img {
+    width: 100%;
+}
+
+.support1text {
+    text-align: center;
+    margin: auto;
+    margin-top: -40%;
+}
+
+.support1text h1 {
+    font-family: BebasNeue;
+    margin: 0px;
+    font-size: 120px;
+    margin-bottom: 5%;
+}
+
+.support1text div {
+    margin-bottom: 10px;
+}
+
+.support1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.support1 a:visited {
+    color: white;
+}
+
+.support1 a:hover {
+    color: #C37897;
+}
+
+.support2 {
+    clear:both;
+    margin-top: 15%;
+}
+
+.support2 h1 {
+    font-family: BebasNeue;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.support2 div {
+    width: 33%;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.support2 img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
 }
