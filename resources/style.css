@@ -318,6 +318,50 @@ src: url("GeosansLight.ttf") format("truetype");
     font-size: 14px;
 }
 
+.gallery1 {
+    width: 200px;
+    height: 800px;
+    background-color: #710050;
+    font-family: BebasNeue;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px 5px #888888;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: block;
+    float: left;
+
+}
+
+.gallery1 h1 {
+    font-size: 56px;
+    margin: 0px;
+}
+
+.gallery1 h2 {
+    margin: 0px;
+    font-size: 36px;
+}
+
+.gallery_quote {
+    text-align: center;
+    font-family: PT Sans Narrow;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.gallery2 {
+    display: block;
+}
+
+.gallery_pic {
+    width: 38%;
+    display: block;
+    float: right;
+    margin-right: 1%;
+    margin-bottom: 10px;
+}
+
 .support1 {
     
 }
