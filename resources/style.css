@@ -45,7 +45,6 @@ src: url("GeosansLight.ttf") format("truetype");
     float: left;
     width: 300px;
     margin-top: -40px;
-    margin-left: 30px;
 }
 
 .header_inside ul {
@@ -93,7 +92,7 @@ src: url("GeosansLight.ttf") format("truetype");
     width: 20%;
     height: 100px;
     margin-top: -33px;
-    margin-left: 13px;
+    margin-left: 10px;
 }
 
 .header_large {
@@ -181,15 +180,44 @@ src: url("GeosansLight.ttf") format("truetype");
     margin: auto;
 }
 
-.index {
-    width: 100%;
-    margin-top: 30px;
+.index1 {
+    width: 75%;
+    height: 583px;
+    float: left;
+    margin-bottom: 20px;
 }
 
-.index_inside {
-    width: 95%;
-    height: 350px;
-    margin: auto;
+.index1 img {
+    width: 100%;
+    height: 583px;
+    display: block;
+}
+
+.index1 h1 {
+    font-family: Times;
+    font-style: italic;
+    font-weight: 400;
+    position: absolute;
+    margin-top: -578px;
+    margin-left: 10px;
+    color: white;
+}
+
+.index2 {
+    width: 22%;
+    height: 583px;
+    float: left;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.index2 h1 {
+    font-family: BebasNeue;
+    margin: 0px;
+    font-size: 48px;
 }
 
 .news {
@@ -252,8 +280,9 @@ src: url("GeosansLight.ttf") format("truetype");
 }
 
 .event1 img {
-    width: 100%;
+    width: 80%;
     z-index: 1;
+    margin-left: 10%;
 }
 
 .event1 a {
@@ -303,6 +332,14 @@ src: url("GeosansLight.ttf") format("truetype");
     float: left;
     position: relative;
     text-align:center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 250px;
+    height: 320px;
+    display: block;
+    margin: auto;
 }
 
 .profile h1 {
@@ -313,7 +350,7 @@ src: url("GeosansLight.ttf") format("truetype");
 .profile h2 {
     margin: auto;
     width: 90%;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .gallery1 {
