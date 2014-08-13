@@ -478,3 +478,14 @@ src: url("GeosansLight.ttf") format("truetype");
     display: block;
     margin: auto;
 }
+
+.contact div {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.contact_img {
+    float: right;
+    display: block;
+}
