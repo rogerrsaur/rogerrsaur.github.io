@@ -257,6 +257,7 @@ src: url("GeosansLight.ttf") format("truetype");
 .about1 {
     margin-top: 20px;
     clear: both;
+    margin-bottom: 20px;
 }
 
 .about1 img {
@@ -266,6 +267,7 @@ src: url("GeosansLight.ttf") format("truetype");
 .about1 div {
     width: 50%;
     float: left;
+    
 }
 
 .about1 h1 {
