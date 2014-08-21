@@ -223,10 +223,8 @@ src: url("GeosansLight.ttf") format("truetype");
 
 .index2 {
     width: 22%;
-    height: 583px;
     float: left;
     text-align: center;
-    background-color: black;
     color: white;
     margin-bottom: 20px;
     margin-left: 5px;
