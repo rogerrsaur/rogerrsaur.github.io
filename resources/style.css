@@ -257,11 +257,10 @@ src: url("GeosansLight.ttf") format("truetype");
 .about1 {
     margin-top: 20px;
     clear: both;
-    margin-bottom: 20px;
 }
 
 .about1 img {
-    width: 85%;
+    width: 95%;
 }
 
 .about1 div {
