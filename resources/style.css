@@ -81,7 +81,7 @@ src: url("GeosansLight.ttf") format("truetype");
 .header_small1 {
     width: 5%;
     height: 50px;
-    background-color: #710050;
+    background-color: #8B008B;
     display: block;
     float: left;
     margin: 0px;
@@ -94,25 +94,26 @@ src: url("GeosansLight.ttf") format("truetype");
     background-color: white;
     display: block;
     float: left;
-    margin-left: -10px;
+    margin-left: -20px;
     margin-right: -10px;
-    z-index: 10;
+    z-index: 30;
 }
 
 .header_img {
     display:block;
     float: left;
-    width: 20%;
+    width: 22%;
     height: 100px;
     margin-top: -33px;
-    margin-left: 0px;
-    z-index: 20;
+    margin-left: -10px;
+    margin-right: -9px;
+    z-index: 40;
 }
 
 .header_large {
     width: 72%;
     height: 50px;
-    background-color: #710050;
+    background-color: #8B008B;
     display: block;
     float: left;
     margin: 0px;
@@ -256,7 +257,7 @@ src: url("GeosansLight.ttf") format("truetype");
 .about1 {
     margin-top: 20px;
     clear: both;
-    height: 475px;
+    height: 500px;
 }
 
 .about1 img {
@@ -313,7 +314,7 @@ src: url("GeosansLight.ttf") format("truetype");
 }
 
 .event1 a:hover {
-    color: #710050;
+    color: #8B008B;
 }
 
 .register {
@@ -373,7 +374,7 @@ src: url("GeosansLight.ttf") format("truetype");
 .gallery1 {
     width: 200px;
     height: 800px;
-    background-color: #710050;
+    background-color: #8B008B;
     font-family: BebasNeue;
     color: white;
     text-align: center;
@@ -395,6 +396,15 @@ src: url("GeosansLight.ttf") format("truetype");
     font-size: 36px;
 }
 
+.gallery1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.gallery1 a:hover {
+    color: black;
+}
+
 .gallery_quote {
     text-align: center;
     font-family: PT Sans Narrow;
@@ -404,6 +414,17 @@ src: url("GeosansLight.ttf") format("truetype");
 
 .gallery2 {
     display: block;
+}
+
+.gallery3 {
+    margin: auto;
+    text-align: center;
+    font-size: 36;
+}
+
+#2015 {
+    margin: auto;
+    text-align: center;
 }
 
 .gallery_pic {
@@ -449,7 +470,7 @@ src: url("GeosansLight.ttf") format("truetype");
 }
 
 .support1 a:hover {
-    color: #710050;
+    color: #8B008B;
 }
 
 .support2 {
