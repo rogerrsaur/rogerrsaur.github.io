@@ -434,22 +434,17 @@ src: url("GeosansLight.ttf") format("truetype");
 }
 
 .support1 {
-    
+    display: inline-block;
 }
 
 .support1 img {
-    display: block;
-    width: 100%;
-    float: left;
+    display:block;
 }
 
 .support1text {
     text-align: center;
     margin: auto;
-    z-index: 50;
-    position: absolute;
-    margin-left: 33%;
-    margin-top: 10%;
+    margin-top: -40%;
 }
 
 .support1text h1 {
@@ -463,16 +458,21 @@ src: url("GeosansLight.ttf") format("truetype");
     margin-bottom: 10px;
 }
 
-.support1 a {
+.supportimg {
+    width: 100%;
+    display: block;
+}
+
+.support1text a {
     color: white;
     text-decoration: none;
 }
 
-.support1 a:visited {
+.support1text a:visited {
     color: white;
 }
 
-.support1 a:hover {
+.support1text a:hover {
     color: #8B008B;
 }
 
