@@ -8,6 +8,11 @@ font-family:GeoSansLight;
 src: url("GeosansLight.ttf") format("truetype");
 }
 
+@font-face {
+font-family: AppleChancery;
+src: url("AppleChancery.ttf") format("truetype");
+}
+
 .header {
     height: 100px;
     background-color: white;
@@ -210,7 +215,7 @@ src: url("GeosansLight.ttf") format("truetype");
 }
 
 .index1 h1 {
-    font-family: BebasNeue;
+    font-family: AppleChancery;
     font-style: italic;
     font-weight: 400;
     position: absolute;
@@ -405,7 +410,7 @@ src: url("GeosansLight.ttf") format("truetype");
 
 .gallery_quote {
     text-align: center;
-    font-family: PT Sans Narrow;
+    font-family: AppleChancery;
     font-size: 24px;
     margin-bottom: 10px;
 }
